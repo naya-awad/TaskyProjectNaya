@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "4782012312",
+    "firebase_url": "https://taskyprojectnaya.firebaseio.com",
+    "project_id": "taskyprojectnaya",
+    "storage_bucket": "taskyprojectnaya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4782012312:android:4d96066335987012d7dded",
+        "android_client_info": {
+          "package_name": "com.example.taskyprojectnaya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4782012312-7c5sceb0b8ns37inf95md2ijgnqpokbq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.taskyprojectnaya",
+            "certificate_hash": "81aaf49184dd496cf74880b4364f6cd604536aa6"
+          }
+        },
+        {
+          "client_id": "4782012312-co85dfq1gvjfn06o90ki9b0tbh2guorc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbSfyIUE1TmEFV-xuoCfzHV5OFLywB19o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4782012312-co85dfq1gvjfn06o90ki9b0tbh2guorc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
