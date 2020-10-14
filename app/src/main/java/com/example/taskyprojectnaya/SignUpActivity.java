@@ -42,10 +42,6 @@ public class SignUpActivity extends AppCompatActivity
             isOK=false;
             FirstName.setError("at least two letter");
         }
-        if(lastn.length()<2) {
-            isOK = false;
-            FirstName.setError("at least two letter");
-        }
 
             if (email.length()<5 || (email.indexOf('@')==0 ) || email.indexOf('@')>=email.length()-2 || email.indexOf('.')==0
                 ||email.indexOf('.')>=email.length()-1 ||email.lastIndexOf('.')<email.indexOf('@'))

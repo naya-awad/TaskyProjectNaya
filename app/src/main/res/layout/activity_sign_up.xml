@@ -70,6 +70,7 @@
             android:id="@+id/Savebtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Save" />
+            android:text="Save"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
