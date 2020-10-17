@@ -37,17 +37,25 @@ public class SignUpActivity extends AppCompatActivity
 
         boolean isOK=true;
 
-        if(firstn.length()<2)
+        if(firstn.length()<2)//בודק אם השם הראשון כתוב לא נכון(צריך להיות יותר משני אותיות)
         {
             isOK=false;
             FirstName.setError("at least two letter");
         }
+        if(lastn.length()<2)//בודק אם השם האחרון כתוב לא נכון(צריך להיות יותר משני אותיות)
+        {
+            isOK=false;
+        }
 
             if (email.length()<5 || (email.indexOf('@')==0 ) || email.indexOf('@')>=email.length()-2 || email.indexOf('.')==0
-                ||email.indexOf('.')>=email.length()-1 ||email.lastIndexOf('.')<email.indexOf('@'))
+                ||email.indexOf('.')>=email.length()-1 ||email.lastIndexOf('.')<email.indexOf('@'))//בודק אם האימיל כתוב לא נכון
         {
             isOK=false;
             Email.setError("Wrong E-mail. Try again");
         }
+            if (pass.length()<8)
+            {
+
+            }
     }
 }
