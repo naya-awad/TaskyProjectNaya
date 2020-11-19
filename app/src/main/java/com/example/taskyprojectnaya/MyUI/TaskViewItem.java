@@ -1,14 +1,16 @@
-package com.example.taskyprojectnaya;
+package com.example.taskyprojectnaya.MyUI;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SignIn extends AppCompatActivity {
+import com.example.taskyprojectnaya.R;
+
+public class TaskViewItem extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_in);
+        setContentView(R.layout.item_task_view);
     }
 }

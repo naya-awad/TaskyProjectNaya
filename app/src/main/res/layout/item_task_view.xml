@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyUI.TaskViewItem">
+
+    <TextView
+        android:id="@+id/itmTvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <TextView
+        android:id="@+id/itmTvImportant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <TextView
+        android:id="@+id/itmTvSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="337dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <TextView
+        android:id="@+id/itmTvNeccessary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <ImageButton
+        android:id="@+id/itmbtnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/sym_action_call"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <ImageButton
+        android:id="@+id/itmbtnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <ImageButton
+        android:id="@+id/itmbtnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_delete"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
