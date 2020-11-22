@@ -10,14 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MyUI.TaskViewItem"></activity>
-        <activity android:name=".MyUI.AddTaskActivity">
+        <activity android:name=".MyUI.AddTaskActivity"/>
+        <activity android:name=".MyUI.SignInActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MyUI.SignInActivity" />
+
         <activity android:name=".MyUI.SignUpActivity" />
         <activity android:name=".MyUI.MainActivity"></activity>
     </application>
