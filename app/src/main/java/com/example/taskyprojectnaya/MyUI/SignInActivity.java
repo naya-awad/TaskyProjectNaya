@@ -42,10 +42,12 @@ public class SignInActivity<isOK> extends AppCompatActivity
         Loginbtn = findViewById(R.id.Loginbtn);
 
 
-        Loginbtn.setOnClickListener(new View.OnClickListener() {
 
+        SignUpbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent i=new Intent(SignInActivity.this, SignUpActivity.class);
+                startActivity(i);
 
             }
         });

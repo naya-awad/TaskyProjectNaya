@@ -44,6 +44,8 @@ public class MyTaskAdapter extends ArrayAdapter<MyTask> {
         ImageButton btnDelete = v.findViewById(R.id.itmbtnDelete);
         ImageButton btnCall = v.findViewById(R.id.itmbtnCall);
         ImageButton btnEdit = v.findViewById(R.id.itmbtnEdit);
+
+
         //3.3 get the soutable task,object
         MyTask task = getItem(position);
 
