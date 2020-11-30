@@ -69,7 +69,7 @@ public class SignInActivity<isOK> extends AppCompatActivity
             etEmail.setError("Wrong E-mail. Try again");
         }
 
-            MyValidations myValidation=new MyValidations();
+        MyValidations myValidation=new MyValidations();
             if (myValidation.validatePasword(pass)==false){
                 isOK= false;
                 etPassword.setError("Invalid Password");
