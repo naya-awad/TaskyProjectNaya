@@ -51,6 +51,15 @@ public class SignInActivity<isOK> extends AppCompatActivity
 
             }
         });
+
+        Loginbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(SignInActivity.this, MainActivity.class);
+                startActivity(i);
+
+            }
+        });
     }
     //5
     private void validateForm()

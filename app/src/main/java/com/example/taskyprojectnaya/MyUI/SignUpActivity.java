@@ -76,8 +76,7 @@ public class SignUpActivity extends AppCompatActivity {
             VerPassword.setError("Passwords must be the same!");
 
         } else {
-            MyValidations myValidation = new MyValidations();
-            if (myValidation.validatePasword(pass) == false) {
+            if (pass.length()<8) {
                 isOK = false;
                 Password.setError("Invalid Password");
             }
